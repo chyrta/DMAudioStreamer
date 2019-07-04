@@ -286,7 +286,7 @@ public class AudioStreamingService extends Service implements NotificationManage
     @NonNull
     private String getNotificationChannelId() {
         NotificationChannel channel = new NotificationChannel(TAG, getString(R.string.playback),
-                android.app.NotificationManager.IMPORTANCE_DEFAULT);
+                android.app.NotificationManager.IMPORTANCE_LOW);
         channel.enableLights(true);
         channel.setLightColor(Color.BLUE);
         channel.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
