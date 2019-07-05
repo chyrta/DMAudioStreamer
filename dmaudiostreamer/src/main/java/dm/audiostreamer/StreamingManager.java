@@ -14,7 +14,7 @@ public abstract class StreamingManager {
 
     public abstract void onStop();
 
-    public abstract void onSeekTo(long position);
+    public abstract void onSeekTo(int position);
 
     public abstract int lastSeekPosition();
 

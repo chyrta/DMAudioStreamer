@@ -132,8 +132,8 @@ public class AudioStreamingManager extends StreamingManager {
     }
 
     @Override
-    public void onSeekTo(long position) {
-        audioPlayback.seekTo((int) position);
+    public void onSeekTo(int position) {
+        audioPlayback.seekTo(position);
     }
 
     @Override
